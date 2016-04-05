@@ -28,7 +28,7 @@ Changing the mode = "Extractive" to:
 ```
 mode="Abstractive"
 ```
-will run Abstractive summarization with TextRank as the default ranking parameter. However, it requires a language model described earlier. By default, this code runs abstractive summarization. You can also use the length parameter (in words) to control length of the output summary. For example:
+will run Abstractive summarization with TextRank as the default ranking parameter. However, it requires a language model described earlier. By default, this code runs extractive summarization. You can also use the length parameter (in words) to control length of the output summary. For example:
 
 ```
 generateSummaries(list_Sentences, mode="Extractive", length=50)
