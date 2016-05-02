@@ -34,6 +34,8 @@ will run Abstractive summarization with TextRank as the default ranking paramete
 generateSummaries(list_Sentences, mode="Extractive", length=50)
 ```
 
+Note: The code here does not contain the clustering step (mentioned in the paper), which should be pretty straightforward to implement. 
+This is research quality code, but if you find major bugs, please let me know.
 
 **If you use the code here, please cite this paper:**
 
