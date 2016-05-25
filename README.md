@@ -1,6 +1,7 @@
 <h1 align=center>AbTextSumm</h1>
 Abstractive Summarization: Code of the ILP-based algorithm similar to the IJCAI paper: Multi-document Abstractive Summarization using ilp based multi-sentence compression. Some differences exist as pointed below:
-**Please note that this code only tackles the summarization component and not the clustering part. **
+
+**Please note that this code only tackles the summarization component and not the clustering part.**
 
 The code takes a list of sentences, or a paragraph and produces an extractive or abstractive summary driven by the parameter "mode".
 For language model (only required for abstractive summarization):
