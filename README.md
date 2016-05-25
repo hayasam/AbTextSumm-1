@@ -1,9 +1,8 @@
 <h1 align=center>AbTextSumm</h1>
-Abstractive Summarization: Code of the ILP-based algorithm as described in the IJCAI paper
+Abstractive Summarization: Code of the ILP-based algorithm similar to the IJCAI paper: Multi-document Abstractive Summarization using ilp based multi-sentence compression. Some differences exist as pointed below:
+**Please note that this code only tackles the summarization component and not the clustering part. **
 
-Please note that this code only tackles the summarization component and not the clustering part. 
 The code takes a list of sentences, or a paragraph and produces an extractive or abstractive summary driven by the parameter "mode".
-
 For language model (only required for abstractive summarization):
 Needs kenlm: https://kheafield.com/code/kenlm/ [See how to install]
 Use any available ARPA format language model and convert to kenlm format as binary. KENLM is really fast. 
@@ -37,6 +36,6 @@ generateSummaries(list_Sentences, mode="Extractive", length=50)
 Note: The code here does not contain the clustering step (mentioned in the paper), which should be pretty straightforward to implement. 
 This is research quality code, but if you find major bugs, please let me know.
 
-**If you use the code here, please cite this paper:**
+**If you use the code here, please cite the paper:**
 
 Siddhartha Banerjee, Prasenjit Mitra, and Kazunari Sugiyama. _"Multi-Document Abstractive Summarization Using ILP based Multi-Sentence Compression."_ Proceedings of the 24th International Joint Conference on Artificial Intelligence (IJCAI 2015), Buenos Aires, Argentina. 2015.
